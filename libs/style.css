@@ -1,0 +1,147 @@
+html, body
+{
+	margin:0;
+	padding:0;
+}
+
+body {
+   font-family:"helvetica neue",helvetica,arial,sans-serif;
+   font-size:12px;
+   font-weight:bold;
+   text-transform:uppercase;
+   color:#a1a1a1;
+   text-align:center;
+}
+
+#wrapper {
+   width:960px;
+   margin:auto;
+   padding:10px;
+   padding-top:0px;
+   background-color:#f2f2f2;
+   border:10px solid #fff;
+   text-align:left;
+}
+
+#header {
+   height:60px;
+}
+
+#popup_container
+{
+	width:100%;
+	height:100%;
+	opacity:.20;
+	top:0;
+	left:0;
+	display:none;
+	position:relative;
+	background-color:#313131;
+	overflow:auto
+}
+.popup_content
+{
+	position:absolute;
+	/*left:50%;
+	top:17%;
+	margin-left:-100px;*/
+	background-color:#313131;
+	border:10px outset #313128;
+	display:none;
+}
+
+#container div {
+   margin:0;
+}
+
+#header ul 
+{
+
+    list-style-type: none;
+    padding: 0;
+    display:table;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+#header li 
+{
+	padding: 3px;
+	border:5px outset #080808;
+	display:table-cell;
+}
+#header a, #header a:link,#header a:visited 
+{
+    display: block;
+    width: auto;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #080808;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#header a:hover,#header a:active 
+{
+	color: #080808;
+    background: #303030;
+}
+#container, #login, #mal, #mangaSearch, #home, #giftList {
+   position:relative;
+}
+
+
+#column{
+	display:block;
+	width:960px;
+	min-height:80%;
+	overflow:hidden;
+}
+
+#column-left {
+	display:block;
+	min-height:80%;
+	width:472px;
+	overflow:hidden;
+}
+#column-right {
+   position:absolute;
+   top:14px;
+   right:10px;
+   bottom:0px;
+   width:472px;
+   overflow:auto;
+}
+
+#giftList #column-left {
+	min-height:80%;
+	width:744px;
+}
+#giftList #giftListTable table
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#giftList #giftListEdit {
+	display:none;
+	position:absolute;
+	top:14px;
+	right:10px;
+	bottom:0px;
+	width:200px;
+	overflow:auto;
+}
+#mal #mal_table table
+{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#footer {
+   margin:0;
+   text-align:center;
+}

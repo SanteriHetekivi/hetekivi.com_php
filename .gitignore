@@ -46,7 +46,7 @@ Temporary Items
 conf*
 
 # TMP files
-templates_c/*
-!data/tmp/.gitkeep
+libs/smarty/templates_c/*
+!libs/smarty/templates_c/.gitkeep
 data/tmp/*
 !data/tmp/.gitkeep
