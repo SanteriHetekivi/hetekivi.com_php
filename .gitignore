@@ -44,3 +44,9 @@ Temporary Items
 
 # Config files
 conf*
+
+# TMP files
+templates_c/*
+!data/tmp/.gitkeep
+data/tmp/*
+!data/tmp/.gitkeep
